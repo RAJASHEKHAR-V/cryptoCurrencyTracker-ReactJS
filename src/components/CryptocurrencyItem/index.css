@@ -1,0 +1,85 @@
+.crypto-item {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding-left: 20px;
+  padding-right: 20px;
+}
+
+.coin-card {
+  width: 15%;
+  display: flex;
+  align-items: center;
+}
+
+.currency-logo {
+  width: 20%;
+  margin-right: 10px;
+}
+
+.currency-name {
+  font-family: 'Roboto';
+  color: #ffffff;
+  font-weight: 600;
+  margin-left: 10px;
+}
+
+.currency-value-card {
+  width: 15%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.usd-value {
+  font-family: 'Roboto';
+  color: #ffffff;
+  font-weight: 600;
+}
+
+.euro-value {
+  font-family: 'Roboto';
+  color: #ffffff;
+  font-weight: 600;
+}
+
+@media (max-width: 767px) {
+  .coin-card {
+    width: 40%;
+  }
+
+  .currency-logo {
+    width: 15%;
+  }
+
+  .currency-name {
+    font-size: 14px;
+  }
+
+  .currency-value-card {
+    width: 40%;
+  }
+
+  .usd-value {
+    font-size: 14px;
+  }
+
+  .euro-value {
+    font-size: 14px;
+  }
+}
+
+@media (min-width: 768px) {
+  .currency-name {
+    font-size: 18px;
+  }
+
+  .usd-value {
+    font-size: 18px;
+  }
+
+  .euro-value {
+    font-size: 18px;
+  }
+}

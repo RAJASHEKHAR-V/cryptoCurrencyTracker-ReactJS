@@ -1,0 +1,112 @@
+.tacker-body {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.crypto-heading {
+  font-family: 'Roboto';
+  color: #00e7ff;
+  font-weight: 600;
+}
+
+.crypto-image {
+  width: 80%;
+  height: 250px;
+}
+
+.crypto-card {
+  width: 90%;
+  list-style-type: none;
+  margin: 0px;
+  padding: 0px;
+  border: 4px solid #00e7ff;
+  border-radius: 5px;
+}
+.descrtiption-card {
+  background-color: #092e33;
+  width: 100%;
+  height: 30px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding-left: 20px;
+  padding-right: 20px;
+}
+
+.coin-type {
+  width: 20%;
+  font-family: 'Roboto';
+  color: #ffffff;
+  font-weight: 600;
+  margin-left: 5px;
+}
+
+.currency-card {
+  width: 15%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.usd {
+  font-family: 'Roboto';
+  color: #ffffff;
+  font-weight: 600;
+}
+
+.euro {
+  font-family: 'Roboto';
+  color: #ffffff;
+  font-weight: 600;
+}
+
+@media (max-width: 767px) {
+  .crypto-heading {
+    font-size: 35px;
+  }
+
+  .cryptocurrency-image {
+    width: 90%;
+  }
+
+  .crypto-card {
+    width: 95%;
+  }
+
+  .coin-type {
+    font-size: 16px;
+  }
+
+  .currency-card {
+    width: 40%;
+  }
+
+  .usd {
+    font-size: 16px;
+  }
+
+  .euro {
+    font-size: 16px;
+  }
+}
+
+@media (min-width: 768px) {
+  .crypto-heading {
+    font-size: 45px;
+  }
+
+  .coin-type {
+    font-size: 20px;
+  }
+
+  .usd {
+    font-size: 20px;
+  }
+
+  .euro {
+    font-size: 20px;
+  }
+}
